@@ -1,0 +1,1 @@
+var myStr = "This is the start." + "This i10.jss the end.";
