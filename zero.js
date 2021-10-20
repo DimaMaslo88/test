@@ -1,6 +1,17 @@
 let hobbiesId = "hobbies";
 let hobbiesEl = document.getElementById(hobbiesId);
-hobbiesEl.value = "run";
+//hobbiesEl.value = "run";
+console.log(hobbiesEl.value);
+let messageId = "message";
+let messageEl = document.getElementById(messageId);
+console.log(messageEl.value);
+let myWorkId = "My Work";
+let myWorkEl = document.getElementById(myWorkId);
+console.log(myWorkEl.value);
+let myLessonsId = "My Lessons";
+let myLessonsEl = document.getElementById(myLessonsId);
+console.log(myLessonsEl.value);
+let myHomeworkId = "My Homework";
+let myHomeworkEl = document.getElementById(myHomeworkId);
+console.log(myHomeworkEl.value);
 
-let arr = ['I', 'Learn', 'JavaScript'];
-alert(arr.slice(0,3));
