@@ -1,7 +1,14 @@
+function alertHobbiesValue() {
+    console.log(hobbiesEl.value);
+}
+
+
+
+
 let hobbiesId = "hobbies";
 let hobbiesEl = document.getElementById(hobbiesId);
-//hobbiesEl.value = "run";
-console.log(hobbiesEl.value);
+hobbiesEl.value = "run";
+alertHobbiesValue();
 let messageId = "message";
 let messageEl = document.getElementById(messageId);
 console.log(messageEl.value);
